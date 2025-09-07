@@ -39,7 +39,7 @@ function validatePassword(password) {
     }
     
     if (password.length < 8) {
-        return { valid: false, message: "A senha deve ter pelo menos 4 caracteres." };
+        return { valid: false, message: "A senha deve ter pelo menos 8 caracteres." };
     }
     
     return { valid: true, message: "" };
